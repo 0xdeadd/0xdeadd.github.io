@@ -162,6 +162,7 @@ body {
   }
 }
 
+
 .header-container {
   margin-top:50px;
 }
@@ -238,4 +239,8 @@ body {
   .no-print, .no-print * {
     display: none !important;
   }
+}
+
+.badge-container {
+  padding-left: 20px; /* Adjust this value as needed */
 }
