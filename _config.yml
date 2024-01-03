@@ -52,12 +52,24 @@ linkedin_username: clintonhphillips
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+ Dynamic IT professional with over 20 years of experience in systems
+ administration, network security, and AI. Skilled in implementing cutting-edge
+ AI technologies, with a passion for optimizing and automating business processes
+ using AI and machine learning. - Designed, implemented, and maintained a
+ Kubernetes (k3s) single-node cluster and integrated gpt prompts for advanced
+ technical problem-solving
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+  Advanced Homelab Setup
+    - AI Development Workstation: Customized Asus Strix G10DK converted into a mild AI
+        workstation with an Nvidia RTX3060 gpu; Windows with WSL2 setup with Ubuntu,
+        Docker Desktop, single-node Kubernetes (k3s), genai-stack, VSCode, CUDA,
+        TensorFlow, and a custom Linux kernel on WSL2.
+
+    - Proxmox Server: Jenkins VM, ELK stack VM, and Plex server VM with Nvidia Quadro
+        670 for video transcoding using VFIO passthrough.
+    - Networking & Security: Configured Unifi + pfSense network setup, multiple VLANs,
+        Unifi POE layer 3 switches, and Unifi POE cameras.
+
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
@@ -67,49 +79,49 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Obsidian
+        link: https://github.com/0xdeadd/My-DevOps-Docs
+        link_text: Documentation
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Github page for Ansible Home Lab Project
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: https://github.com/0xdeadd/ansible
+          - title:  Github page for Dotfiles project 
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/0xdeadd/dotfiles
         quote: >
-          Short overview of the project (optional)
+          Obsidian Markdown Notes for DevOps and AI.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Various Personal and Homelab Projects.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Cowart Industrial Services
+        sub_title: AWS Engineer
+        caption: Apr 2018 - Mar 2022
+        # link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Configured and secured the network infrastructure and systems for a large
+            industrial company, using Unifi, pfSense, Ansible all on a hybrid on premesis/AWS.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+        title: University of West Georgia
+        sub_title: Master of Science in Computer Science
+        caption: 2004 - 2007
+        # quote: >
+        # BBA in Accounting and Information Systems
+        # description: | 
+        #  1989 - 1994
+  - title: Things I love
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      My dog. Learning new things and always looking for new challenges.
+      Going for walks with my dog to clear my head and to contemplate the 
+       the inevitable takeover by our future AGI Overlords. Oh lord.
+      Github Copilot, I've got my eye on you. 
 
 # Footer
 footer_show_references: true
