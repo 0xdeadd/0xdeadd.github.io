@@ -120,8 +120,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       My dog. Learning new things and always looking for new challenges.
       Going for walks with my dog to clear my head and to contemplate the
-      nevitable takeover by our future AGI Overlords. Oh lord.
-      Github Copilot, I've got my eye on you. 
+      inevitable takeover by our future AGI Overlords. Oh lord.
 
 # Footer
 footer_show_references: true
