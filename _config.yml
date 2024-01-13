@@ -10,7 +10,7 @@ name: Clinton Phillips
 title: DevOps
 email: clint@technolo.co
 # email_title: Email (Email title override)
-phone: APKTIDQFsUVNIo_jlb1-PL-7gjiNU8Y5WfIzXCPsw_ujxErO6cGw
+# phone:
 # phone_title: Phone (Phone title override)
 website: technolo.co
 # website_title: Web (Website title override)
@@ -121,6 +121,7 @@ content:
       My dog. Learning new things and always looking for new challenges.
       Going for walks with my dog to clear my head and to contemplate the
       inevitable takeover by our future AGI Overlords. Oh lord.
+      [pub_key](APKTIDQFsUVNIo_jlb1-PL-7gjiNU8Y5WfIzXCPsw_ujxErO6cGw)
 
 # Footer
 footer_show_references: true
