@@ -121,14 +121,18 @@ content:
       My dog. Learning new things and always looking for new challenges.
       Going for walks with my dog to clear my head and to contemplate the
       inevitable takeover by our future AGI Overlords. Oh lord.
-      APKTIDQFsUVNIo_jlb1-PL-7gjiNU8Y5WfIzXCPsw_ujxErO6cGw
+
+      Public_Key
+      ```
+      *APKTIDQFsUVNIo_jlb1-PL-7gjiNU8Y5WfIzXCPsw_ujxErO6cGw*
+      ```
       
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
