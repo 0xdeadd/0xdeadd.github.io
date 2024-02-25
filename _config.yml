@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Clinton Phillips
-title: DevOps
+title: technolo.co
 email: clint@technolo.co
 # email_title: Email (Email title override)
 # phone:
@@ -60,16 +60,12 @@ about_content: | # this will include new lines to allow paragraphs
  technical problem-solving
 
   Advanced Homelab Setup
-    - AI Development Workstation: Customized Asus Strix G10DK converted into a mild AI
-        workstation with an Nvidia RTX3060 gpu; Windows with WSL2 setup with Ubuntu,
-        Docker Desktop, single-node Kubernetes (k3s), genai-stack, VSCode, CUDA,
-        TensorFlow, and a custom Linux kernel on WSL2.
-
+    - AI Development Server: Customized Asus Strix, a mild AI
+        server with an Nvidia RTX3060 gpu, Ubuntu, cuda, pytorch and fastai
     - Proxmox Server: Jenkins VM, ELK stack VM, and Plex server VM with Nvidia Quadro
         670 for video transcoding using VFIO passthrough.
     - Networking & Security: Configured Unifi + pfSense network setup, multiple VLANs,
         Unifi POE layer 3 switches, and Unifi POE cameras.
-
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
